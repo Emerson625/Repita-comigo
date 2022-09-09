@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5</title>
+
+    <script>
+
+        var num1 = parseInt(prompt("Digite um número abaixo:"));
+        var num2 = parseInt(prompt("Digite um número abaixo MAIOR que o anterior:"));
+        var média = 0;
+        var diferenca = (num2 - num1) + 1;
+        
+
+        while (num1 <= num2 ) {
+            média += num1;
+            num1++;
+        }
+        
+        alert("A média aritmética dos dois números inteiros informados por você e todos os números inteiros entre eles é " + média / diferenca);
+
+
+
+    </script>
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
